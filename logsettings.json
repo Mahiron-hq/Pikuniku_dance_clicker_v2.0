@@ -1,0 +1,39 @@
+{
+  "Serilog": {
+    "MinimumLevel": {
+      "Default": "Information",
+      "Override": {
+        "Microsoft": "Warning",
+        "System": "Warning"
+      }
+    },
+    "WriteTo": [
+      {
+        "Name": "File",
+        "Args": {
+          "path": "logs/app-.txt",
+          "rollingInterval": "Day",
+          "outputTemplate": "{Timestamp:HH:mm:ss.fff} [{Level:u3}] {Message:lj}{NewLine}{Exception}",
+          "retainedFileCountLimit": 7
+        }
+      },
+      {
+        "Name": "Console",
+        "Args": {
+          "outputTemplate": "{Timestamp:HH:mm:ss.fff} [{Level:u3}] {Message:lj}{NewLine}"
+        }
+      }
+    ],
+    "Enrich": [ "FromLogContext" ]
+  },
+  "Performance": {
+    "EnableDetailedProfiling": true,
+    "LogFrameStats": true,
+    "StatsIntervalSeconds": 5
+  },
+  "Detection": {
+    "LogEveryDetection": false,
+    "LogMissedFrames": true,
+    "LogThresholdFailures": true
+  }
+}
