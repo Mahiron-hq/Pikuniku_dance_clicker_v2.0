@@ -1,4 +1,4 @@
-##Описание (Russian)
+**Описание (Russian)**
 Приветствую, Пикуниковцы! Если у вас не получается победить танцевального робота на 100% и получить достижение «Колбасер колбасит соло», то данная программа для вас.
 
 _Как работает:_
@@ -17,7 +17,7 @@ _Помощь и загрузка:_
 ㅤ
 ㅤ
 
-##Description (English)
+**Description (English)**
 Greetings, Piku-fans! If you're struggling to beat the dance robot 100% and unlock the "Dancing Machine" achievement, this tool is for you.
 
 _How it works:_
