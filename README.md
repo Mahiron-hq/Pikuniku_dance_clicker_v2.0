@@ -12,7 +12,7 @@ _Как работает:_
 
 _Помощь и загрузка:_
 
-🛠 Ошибки? Пишите в [Telegram-группу](t.me/mahiron_hq)
+🛠 Ошибки? Пишите в [Telegram-группу](https://t.me/mahiron_hq)
 
 📥 Скачать: Перейдите в раздел [Releases](https://github.com/Mahiron-hq/Pikuniku_dance_clicker_v2.0/releases) и выберите нужную версию (скачивайте архив с релизом, а не Source code).
 
@@ -36,7 +36,7 @@ _How it works:_
 
 _Support & Downloads:_
 
-🛠 Issues? Join the [Telegram group](t.me/mahiron_hq)
+🛠 Issues? Join the [Telegram group](https://t.me/mahiron_hq)
 
 📥 Download: Go to the [Releases](https://github.com/Mahiron-hq/Pikuniku_dance_clicker_v2.0/releases) section and choose your version (download the compiled release, not the Source code).
 
